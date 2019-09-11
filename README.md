@@ -10,10 +10,10 @@
 
 #Tests:
 
-##config-server:
+config-server:
 * http://localhost:8888/bank-account-service/dev
 * http://localhost:8888/bank-account-service/default
 * http://localhost:8888/bank-account-service/uat
 
-##bank-account-server:
+bank-account-server:
 #### curl -i -H "Content-Type: application/json" -X POST -d '{"accountId":"B12345","accountName":"Joe Bloggs","accountType":"CURRENT_ACCOUNT","accountBlance":1250.38}' localhost:8080/bank-account
